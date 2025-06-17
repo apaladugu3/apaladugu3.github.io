@@ -11,14 +11,19 @@ I am a post-doctoral scholar in the Integrated Systems Engineering department at
 
 News
 ======
-- June 2025: Completed a two year NASA SBIR effort with Mosaic ATM. This work included modelling multiple contingency scenarios in work models that compute to analyze system and agent performance metrics while varying system architectures, pilot communication delays, between aircraft separation buffers, ... 
-- May 2025: Presented a work titled, "TWO TOOLS FOR ANALYZING COORDINATION PROBLEMS TO DESIGN FOR DISTRIBUTED
-WORK: A CASE STUDY IN URBAN AIR MOBILITY" with Abby Post for the International Symposium on Aviation Psychology. https://doi.org/10.5399/osu/1188
-- March 2025: New paper titled, "Computational Simulation of Distributed Work as a Discovery Tool for Envisioning Future Operations", is published in the Journal of Cognitive Engineering and Decision Making. https://doi.org/10.1177/15553434251327698
-- February 2025: Dissertation published and can be accessed using the link. http://rave.ohiolink.edu/etdc/view?acc_num=osu1732442311106273
-- January 2025: Started new role as a postdoctoral scholar in the Cognitive Systems Engineering Lab.
-- December 2024: Attended the Ohio State University's spring commencement to receive my doctoral diploma.
-- November 2024: Successfully defended my dissertation titled, "Computational Simulation of Work as a Discovery Tool for Envisioning Future Distributed Work Systems". 
+- June 2025: Completed a two-year NASA SBIR effort with Mosaic ATM. This work involved modeling multiple contingency scenarios using Work Models that Compute to analyze system and agent performance metrics while varying system architectures, pilot communication delays, aircraft separation buffers, and more.
+
+- May 2025: Presented a paper titled “Two Tools for Analyzing Coordination Problems to Design for Distributed Work: A Case Study in Urban Air Mobility” with Abby Post at the International Symposium on Aviation Psychology. https://doi.org/10.5399/osu/1188
+
+- March 2025: Published a new paper titled “Computational Simulation of Distributed Work as a Discovery Tool for Envisioning Future Operations” in the Journal of Cognitive Engineering and Decision Making. https://doi.org/10.1177/15553434251327698
+
+- February 2025: Dissertation published and available at: http://rave.ohiolink.edu/etdc/view?acc_num=osu1732442311106273
+
+- January 2025: Began a new role as a postdoctoral scholar in the Cognitive Systems Engineering Lab.
+
+- December 2024: Attended The Ohio State University's autumn commencement to receive my doctoral diploma.
+
+- November 2024: Successfully defended my dissertation titled “Computational Simulation of Work as a Discovery Tool for Envisioning Future Distributed Work Systems.”
 
 <!-- Site-wide configuration
 ------
