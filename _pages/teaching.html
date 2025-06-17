@@ -11,9 +11,24 @@ author_profile: true
   <div class="archive__item">
     <p>
       <strong>{{ post.title }}</strong><br/>
-      <em>{{ post.university }}</em><br/><br/>
-      <em>{{ post.date | date: "%B %Y" }} | {{ post.role }}{% if post.role == "TA" and post.instructor %} (Instructor: {{ post.instructor }}){% endif %}</em><br/><br/>
+      <em>{{ post.university }}</em><br/>
+      <em>
+        {{ post.date | date: "%B %Y" }} | {{ post.role }}
+        {% if post.role == "TA" and post.instructor %}
+          (Instructor: {{ post.instructor }})
+        {% endif %}
+        {% if post.manager %}
+          <br/>Manager: {{ post.manager }}
+        {% endif %}
+      </em><br/>
       {{ post.excerpt | markdownify }}
     </p>
   </div>
 {% endfor %}
+
+
+<p style="margin-top: 2em;">
+  <em>
+    Feel free to contact my managers or course instructors in any of these roles for feedback on my teaching performance.
+  </em>
+</p>

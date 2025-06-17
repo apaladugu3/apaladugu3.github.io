@@ -4,6 +4,7 @@ collection: teaching
 date: 2021-07-01
 role: Instructor (Associate Systems Engineer)
 university: Dell Boomi
+manager: "Brad Ingram (Brad.Ingram@dell.com), Mark Chripczuk (markchripczuk@gmail.com)"
 excerpt: |
   - Led multiple 40-hour live Zoom-based training courses for professional software engineers and managers from external companies.
   - Introduced core concepts of Boomi Integration through lectures, demos, and hands-on labs.
