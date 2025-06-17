@@ -22,14 +22,14 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "paladugu.jpg"
   name             : "Dr. Abhinay Paladugu"
   pronouns         : # example: "she/her"  
   bio              : "Post doctoral scholar at the Ohio State University. I am an expert in evaluating envisioned distributed work systems using computational modeling and simulation."
   location         : "Columbus, Ohio"
   employer         : "The Ohio State University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "paladugu.10@osu.edu" 
 
   # Academic websites
   academia         : # URL
