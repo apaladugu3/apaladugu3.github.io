@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 {% assign ongoing = site.projects | where_exp: "item", "item.location contains 'present'" %}
-{% assign completed = site.projects | reject: "location", nil | reject: "location", "" | reject: "location", "contains: 'present'" %}
+{% assign completed = site.projects | where_exp: "item", "item.location and item.location contains 'present' | not" %}
 {% assign completed = completed | sort: "date" | reverse %}
 {% assign sorted_projects = ongoing | concat: completed %}
 
