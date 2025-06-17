@@ -1,8 +1,24 @@
 ---
+layout: archive
 title: "Projects"
 permalink: /projects/
+author_profile: true
 ---
 
-{% for post in site.projects reversed %}
-  {% include archive-single.html %}
+{% include base_path %}
+
+{% assign ongoing = site.projects | where_exp: "item", "item.location contains 'present'" %}
+{% assign completed = site.projects | reject: "location", nil | reject: "location", "" | reject: "location", "contains: 'present'" %}
+{% assign completed = completed | sort: "date" | reverse %}
+
+{% assign sorted_projects = ongoing | concat: completed %}
+
+{% for post in sorted_projects %}
+  <div class="archive__item" style="margin-bottom: 2em;">
+    <p>
+      <strong>{{ post.title }}</strong><br/>
+      {% if post.location %}<em>{{ post.location }}</em><br/><br/>{% endif %}
+      {{ post.excerpt | markdownify }}
+    </p>
+  </div>
 {% endfor %}
