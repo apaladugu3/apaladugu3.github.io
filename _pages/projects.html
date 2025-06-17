@@ -35,9 +35,8 @@ author_profile: true
           {% assign related_pub = site.publications | where: "slug", paper_id | first %}
           {% if related_pub %}
             <li>
-              {{ related_pub.citation | markdownify }}
+              {{ related_pub.authors }}, ({{ related_pub.date | date: "%Y" }}). <em>{{ related_pub.title }}</em>. <i>{{ related_pub.journal }}</i>.
               {% if related_pub.paperurl %}<a href="{{ related_pub.paperurl }}">[PDF]</a>{% endif %}
-              {% if related_pub.bibtexurl %}<a href="{{ related_pub.bibtexurl }}">[BibTeX]</a>{% endif %}
             </li>
           {% endif %}
         {% endfor %}
