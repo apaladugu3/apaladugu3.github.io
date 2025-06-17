@@ -1,0 +1,12 @@
+---
+title: "CMPSC 472 – Operating System Concepts"
+collection: teaching
+date: 2019-08-08
+role: Grader
+instructor: Dr. Linda Null
+university: Pennsylvania State University
+excerpt: |
+- This course introduced the fundamental principles of single-node operating systems to seniors.
+- Provided structural feedback on assignments and projects.
+- Held regular office hours to discuss grades and suggest strategies for improvement.
+---

@@ -1,20 +1,13 @@
 ---
-title: "Graduate Teaching Associate "
+title: "ISE 3700 – Introduction to Cognitive Systems Engineering"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2023-spring-teaching-1
-venue: "The Ohio State University, Department of Integrated Systems Engineering"
-date: 2014-01-01
-location: "Columbus, USA"
+date: 2023-01-01
+role: Teaching Associate (TA)
+instructor: Dr. Martijn IJtsma
+university: The Ohio State University
+excerpt: |
+  - Designed assignments and examinations for the course.
+  - Taught 20% of classes and analyzed assignments to identify areas of concern.
+  - Graded and provided constructive feedback for the students and the professor.
+
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======

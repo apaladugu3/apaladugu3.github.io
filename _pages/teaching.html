@@ -8,5 +8,12 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  <div class="archive__item">
+    <p>
+      <strong>{{ post.title }}</strong><br/>
+      <em>{{ post.university }}</em><br/><br/>
+      <em>{{ post.date | date: "%B %Y" }} | {{ post.role }}{% if post.role == "TA" and post.instructor %} (Instructor: {{ post.instructor }}){% endif %}</em><br/><br/>
+      {{ post.excerpt | markdownify }}
+    </p>
+  </div>
 {% endfor %}
