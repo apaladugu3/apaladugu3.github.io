@@ -15,5 +15,4 @@ excerpt: |
   - Participated in developing visualizations in JavaScript and the display design containing automated agents.
   - Communicated with stakeholders and led efforts for stakeholder engagement.
   - Designed human-in-the-loop testing scenarios and experiments to test the designed visual displays.
-  - The results of this project are part of the proceedings of Digital Avionics Systems Conference (DASC). doi: 10.1109/DASC62030.2024.10748968.
 ---

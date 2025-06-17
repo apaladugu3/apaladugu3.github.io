@@ -24,5 +24,4 @@ excerpt: |
   - Case study of an envisioned Dallas Forth Worth airspace to evaluate the alternate architectures.
   - Computationally modeled and simulated the case studies for alternate architectures and analyzed the output for emergent properties like coordination and overall workload.
   - Evaluated alternate architectures and created visualizations (graphs and networks) to show tradeoffs, like high information exchange vs. faster contingency detection.
-  - Some of the results of this work are published in the Journal of Cognitive Engineering and Decision Making (JCEDM). https://doi.org/10.1177/15553434251327698
 ---
