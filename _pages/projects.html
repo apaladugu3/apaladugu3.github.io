@@ -29,9 +29,9 @@ author_profile: true
     </div>
 
     {% if post.papers %}
-      <div style="font-size: 0.95em; margin-left: 1.5em;">
+      <div class="archive__item-excerpt">
         <strong>Related Publications:</strong>
-        <ul style="margin-left: 1.5em; margin-top: 0.5em;">
+        <ul>
           {% for paper_id in post.papers %}
             {% assign related_pub = site.publications | where: "slug", paper_id | first %}
             {% if related_pub %}
