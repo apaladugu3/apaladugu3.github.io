@@ -36,8 +36,10 @@ author_profile: true
           {% if related_pub %}
             <li>
               {{ related_pub.authors }}, ({{ related_pub.date | date: "%Y" }}). <em>{{ related_pub.title }}</em>. <i>{{ related_pub.journal }}</i>.
-              {% if related_pub.paperurl %}<a href="{{ related_pub.paperurl }}">[PDF]</a>{% endif %}
+              {% if related_pub.paperurl %}<a href="{{ related_pub.paperurl }}"> [PDF]</a>{% endif %}
             </li>
+          {% else %}
+            <li><em>Publication not found: {{ paper_id }}</em></li>
           {% endif %}
         {% endfor %}
       </ul>
