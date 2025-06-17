@@ -12,17 +12,12 @@ author_profile: true
 {% assign completed = completed | sort: "date" | reverse %}
 {% assign sorted_projects = ongoing | concat: completed %}
 
-{% assign printed = "" %}
-
 {% for post in sorted_projects %}
-  {% unless printed contains post.url %}
-    <div class="archive__item" style="margin-bottom: 2em;">
-      <p>
-        <strong>{{ post.title }}</strong><br/>
-        {% if post.location %}<em>{{ post.location }}</em><br/><br/>{% endif %}
-        {{ post.excerpt | markdownify }}
-      </p>
-    </div>
-    {% assign printed = printed | append: post.url %}
-  {% endunless %}
+  <div class="archive__item" style="margin-bottom: 2em;">
+    <p>
+      <strong>{{ post.title }}</strong><br/>
+      {% if post.location %}<em>{{ post.location }}</em><br/><br/>{% endif %}
+      {{ post.excerpt | markdownify }}
+    </p>
+  </div>
 {% endfor %}
