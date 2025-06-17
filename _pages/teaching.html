@@ -14,7 +14,7 @@ author_profile: true
       <em>{{ post.university }}</em><br/>
       <em>
         {{ post.date | date: "%B %Y" }} | {{ post.role }}
-        {% if post.role == "TA" and post.instructor %}
+        {% if post.role == "TA" or post.role == "Grader" %}
           (Instructor: {{ post.instructor }})
         {% endif %}
         {% if post.manager %}
