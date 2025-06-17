@@ -10,4 +10,5 @@ excerpt: |
   - Introduced core concepts of Boomi Integration through lectures, demos, and hands-on labs.
   - Managed cohorts ranging from 5 to 40 participants per session.
   - Developed and evaluated assignments and quizzes to assess learning outcomes.
+
 ---
