@@ -7,8 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign ongoing = site.projects | where_exp: "item", "item.location contains 'present'" %}
-{% assign completed = site.projects | where_exp: "item", "item.location and item.location contains 'present' | not" %}
+{% assign ongoing = site.projects | where: "ongoing", true %}
+{% assign completed = site.projects | where_exp: "item", "item.ongoing != true" %}
 {% assign completed = completed | sort: "date" | reverse %}
 {% assign sorted_projects = ongoing | concat: completed %}
 
@@ -29,17 +29,19 @@ author_profile: true
     </div>
 
     {% if post.papers %}
-      <div class="archive__item-excerpt">
+      <div class="archive__item-excerpt" style="font-size: 0.9em; padding-left: 1.5em;">
         <strong>Related Publications:</strong>
-        <ul>
+        <ul style="margin-left: 1.2em;">
           {% for paper_id in post.papers %}
             {% assign related_pub = site.publications | where: "slug", paper_id | first %}
             {% if related_pub %}
               <li>
-                {{ related_pub.authors }}, ({{ related_pub.date | date: "%Y" }}). 
-                <em>{{ related_pub.title }}</em>. 
+                {{ related_pub.authors }}, ({{ related_pub.date | date: "%Y" }}).
+                <em>{{ related_pub.title }}</em>.
                 <i>{{ related_pub.journal }}</i>.
-                {% if related_pub.paperurl %}<a href="{{ related_pub.paperurl }}"> [PDF]</a>{% endif %}
+                {% if related_pub.paperurl %}
+                  <a href="{{ related_pub.paperurl }}">[PDF]</a>
+                {% endif %}
               </li>
             {% else %}
               <li><em>Publication not found: {{ paper_id }}</em></li>
