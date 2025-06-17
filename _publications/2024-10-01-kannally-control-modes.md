@@ -1,7 +1,7 @@
 ---
 title: "An exploratory study of contextual control modes in teamwork"
 authors: C. Kannally, Abhinay Paladugu, R. Nijveldt, L. McSherry, & Martijn IJtsma
-category: manuscripts
+category: journal
 date: 2024-10-01
 journal: Human Factors: The Journal of the Human Factors and Ergonomics Society
 
