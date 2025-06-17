@@ -1,10 +1,10 @@
 ---
 title: "Computational Simulation of Distributed Work as a Discovery Tool for Envisioning Future Operations"
 authors: Abhinay Paladugu, Alicia Fernandes, & Martijn IJtsma
-category: journal
-paperurl: https://doi.org/10.1177/15553434251327698
+category: manuscripts
 date: 2025-05-01
 journal: Journal of Cognitive Engineering and Decision Making
+paperurl: https://doi.org/10.1177/15553434251327698
 slidesurl: https://example.com/slides.pdf
 bibtexurl: https://example.com/paladugu2025.bib
 ---

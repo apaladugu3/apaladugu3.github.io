@@ -1,10 +1,8 @@
 ---
-title: "Computational Simulation of Distributed Work as a Discovery Tool for Envisioning Future Operations"
-authors: Abhinay Paladugu, Alicia Fernandes, & Martijn IJtsma
-category: journal
-paperurl: https://doi.org/10.1177/15553434251327698
-date: 2025-05-01
-journal: Journal of Cognitive Engineering and Decision Making
-slidesurl: https://example.com/slides.pdf
-bibtexurl: https://example.com/paladugu2025.bib
+title: "Use of Model-Based Systems Engineering to Drive UAM Contingency Management Procedure Design"
+authors: Alicia Fernandes, Kevin Zabara, Abhinay Paladugu, & Martijn IJtsma
+category: conferences
+date: 2024-10-01
+conference: Paper presented at AIAA Scitech 2025 Forum, Orlando, FL
+paperurl: https://example.com/fernandes2025.pdf
 ---
