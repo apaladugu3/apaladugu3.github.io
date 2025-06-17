@@ -10,15 +10,19 @@ author_profile: true
 {% assign ongoing = site.projects | where_exp: "item", "item.location contains 'present'" %}
 {% assign completed = site.projects | reject: "location", nil | reject: "location", "" | reject: "location", "contains: 'present'" %}
 {% assign completed = completed | sort: "date" | reverse %}
-
 {% assign sorted_projects = ongoing | concat: completed %}
 
+{% assign printed = "" %}
+
 {% for post in sorted_projects %}
-  <div class="archive__item" style="margin-bottom: 2em;">
-    <p>
-      <strong>{{ post.title }}</strong><br/>
-      {% if post.location %}<em>{{ post.location }}</em><br/><br/>{% endif %}
-      {{ post.excerpt | markdownify }}
-    </p>
-  </div>
+  {% unless printed contains post.url %}
+    <div class="archive__item" style="margin-bottom: 2em;">
+      <p>
+        <strong>{{ post.title }}</strong><br/>
+        {% if post.location %}<em>{{ post.location }}</em><br/><br/>{% endif %}
+        {{ post.excerpt | markdownify }}
+      </p>
+    </div>
+    {% assign printed = printed | append: post.url %}
+  {% endunless %}
 {% endfor %}
