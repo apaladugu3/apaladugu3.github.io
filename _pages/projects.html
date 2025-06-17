@@ -16,8 +16,32 @@ author_profile: true
   <div class="archive__item" style="margin-bottom: 2em;">
     <p>
       <strong>{{ post.title }}</strong><br/>
-      {% if post.location %}<em>{{ post.location }}</em><br/><br/>{% endif %}
-      {{ post.excerpt | markdownify }}
+      {% if post.location %}
+        <em>{{ post.location }}</em><br/>
+      {% endif %}
+      {% if post.contributors %}
+        <em>Contributors: {{ post.contributors | join: ", " }}</em><br/>
+      {% endif %}
     </p>
+
+    <div class="archive__item-excerpt" style="margin-bottom: 1em;">
+      {{ post.excerpt | markdownify }}
+    </div>
+
+    {% if post.papers %}
+      <p><strong>Related Publications:</strong></p>
+      <ul>
+        {% for paper_id in post.papers %}
+          {% assign related_pub = site.publications | where: "slug", paper_id | first %}
+          {% if related_pub %}
+            <li>
+              {{ related_pub.citation | markdownify }}
+              {% if related_pub.paperurl %}<a href="{{ related_pub.paperurl }}">[PDF]</a>{% endif %}
+              {% if related_pub.bibtexurl %}<a href="{{ related_pub.bibtexurl }}">[BibTeX]</a>{% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 {% endfor %}
