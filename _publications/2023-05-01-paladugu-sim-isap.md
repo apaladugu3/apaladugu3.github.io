@@ -6,5 +6,6 @@ date: 2023-05-01
 
 conference: 22nd International Symposium on Aviation Psychology
 paperurl: https://corescholar.libraries.wright.edu/isap_2023/2
+slug: paladugu-isap
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Cognitive Systems Engineering to Support Anomaly Response in Space"
+title: "NASA STTR I: Cognitive Systems Engineering to Support Anomaly Response in Space"
 collection: projects
 date: 2024-09-01
 venue: "Technologies Used: C++, Python, VenSim"

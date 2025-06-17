@@ -6,5 +6,6 @@ date: 2025-01-01
 
 conference: AIAA Scitech Forum, AIAA 2025 2529
 paperurl: https://doi.org/10.2514/6.2025-2529
+slug: fernandes-scitech
 ---
 

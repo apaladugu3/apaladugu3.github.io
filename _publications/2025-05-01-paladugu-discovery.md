@@ -6,5 +6,6 @@ date: 2025-05-01
 journal: Journal of Cognitive Engineering and Decision Making
 
 paperurl: https://doi.org/10.1177/15553434251327698
+slug: paladugu-discovery
 ---
 
