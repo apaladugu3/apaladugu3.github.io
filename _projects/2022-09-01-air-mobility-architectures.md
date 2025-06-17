@@ -1,5 +1,5 @@
 ---
-title: "Alternate Architectures for Air Mobility Contingency Management"
+title: "NASA SBIR I: Alternate Architectures for Air Mobility Contingency Management"
 collection: projects
 date: 2022-09-01
 venue: "Technologies Used: C++, Python"

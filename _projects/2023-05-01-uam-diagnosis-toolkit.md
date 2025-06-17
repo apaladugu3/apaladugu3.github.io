@@ -1,9 +1,15 @@
 ---
-title: "Urban Air Mobility (UAM) Contingency Diagnosis Toolkit"
+title: "NASA USRC: Urban Air Mobility (UAM) Contingency Diagnosis Toolkit"
 collection: projects
 date: 2023-05-01
 venue: "Technologies Used: JAVA, JS, Python"
 location: "May. 2023 – Sept. 2024"
+contributors:
+  - "Connor Kannally (OSU)"
+  - "Isabel Furl (OSU)"
+  - "Luke McSherry (OSU)"
+papers:
+  - kannally-dasc
 excerpt: |
   - Created a BlueSky simulation environment for a Columbus, Ohio UAM airspace.
   - Participated in developing visualizations in JavaScript and the display design containing automated agents.
