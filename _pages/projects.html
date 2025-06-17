@@ -29,20 +29,24 @@ author_profile: true
     </div>
 
     {% if post.papers %}
-      <p><strong>Related Publications:</strong></p>
-      <ul>
-        {% for paper_id in post.papers %}
-          {% assign related_pub = site.publications | where: "slug", paper_id | first %}
-          {% if related_pub %}
-            <li>
-              {{ related_pub.authors }}, ({{ related_pub.date | date: "%Y" }}). <em>{{ related_pub.title }}</em>. <i>{{ related_pub.journal }}</i>.
-              {% if related_pub.paperurl %}<a href="{{ related_pub.paperurl }}"> [PDF]</a>{% endif %}
-            </li>
-          {% else %}
-            <li><em>Publication not found: {{ paper_id }}</em></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+      <div style="font-size: 0.95em; margin-left: 1.5em;">
+        <strong>Related Publications:</strong>
+        <ul style="margin-left: 1.5em; margin-top: 0.5em;">
+          {% for paper_id in post.papers %}
+            {% assign related_pub = site.publications | where: "slug", paper_id | first %}
+            {% if related_pub %}
+              <li>
+                {{ related_pub.authors }}, ({{ related_pub.date | date: "%Y" }}). 
+                <em>{{ related_pub.title }}</em>. 
+                <i>{{ related_pub.journal }}</i>.
+                {% if related_pub.paperurl %}<a href="{{ related_pub.paperurl }}"> [PDF]</a>{% endif %}
+              </li>
+            {% else %}
+              <li><em>Publication not found: {{ paper_id }}</em></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
     {% endif %}
   </div>
 {% endfor %}
