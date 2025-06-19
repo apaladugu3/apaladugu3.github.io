@@ -13,7 +13,7 @@ My research spans domains such as low-altitude air mobility, spaceflight operati
 
 For industry, this means being able to evaluate the downstream effects of a change. Whether you're planning to overhaul incident response protocols, migrate workflows to a new platform like Salesforce, or place a multi-million dollar aircraft order, my approach helps organizations proactively identify performance gaps, coordination breakdowns, or unintended consequences introduced by new procedures or technologies. The goal is to provide actionable insight before high-stakes decisions are made, saving time, reducing risk, and ensuring a smoother transition to future-ready operations.
 
-By modeling work, not just workflows, I help bridge the gap between system design and real-world operation. My goal is to provide tools that support informed decision-making in early-stage development, ensuring that future autonomous and semi-autonomous systems are not only innovative but also resilient, scalable, and human-aware.
+By modeling work and how it interacts with the work environment, I help provide a different perspective that will bridge the gap between system design and real-world operation. My goal is to provide tools that support informed decision-making in early-stage development, ensuring that future autonomous and semi-autonomous systems are not only innovative but also resilient, scalable, and human-aware.
 
 News
 ======
