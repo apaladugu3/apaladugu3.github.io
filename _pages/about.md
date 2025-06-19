@@ -7,7 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a post-doctoral scholar in the Integrated Systems Engineering department at the Ohio State University (OSU). My research interests include but are not limited to creating and demonstrating tools that help evaluate distributed work systems. This includes research on using computational modeling and simulation techniques for evaluating envisioned safety critical systems. This research can be applied to a variety of domains of practice, such as low altitude short range air transportations system, spaceflight operations, large scale software system and disaster response operations.
+I am a postdoctoral scholar in the Integrated Systems Engineering department at The Ohio State University. My work focuses on developing computational modeling and simulation tools to evaluate distributed work systems, especially those operating in complex, safety-critical environments. I’m interested in understanding how new technologies and automation affect system-wide performance under both ideal and degraded conditions.
+
+My research spans domains such as low-altitude air mobility, spaceflight operations, large-scale software systems, and disaster response. At its core, my work enables designers, engineers, and decision-makers to anticipate how new capabilities interact with human operators, automation, and the broader system. This approach reveals trade-offs, coordination needs, and potential failure modes before systems are fully built or deployed.
+
+For industry, this means being able to evaluate the downstream effects of a change. Whether you're planning to overhaul incident response protocols, migrate workflows to a new platform like Salesforce, or place a multi-million dollar aircraft order, my approach helps organizations proactively identify performance gaps, coordination breakdowns, or unintended consequences introduced by new procedures or technologies. The goal is to provide actionable insight before high-stakes decisions are made, saving time, reducing risk, and ensuring a smoother transition to future-ready operations.
+
+By modeling work, not just workflows, I help bridge the gap between system design and real-world operation. My goal is to provide tools that support informed decision-making in early-stage development, ensuring that future autonomous and semi-autonomous systems are not only innovative but also resilient, scalable, and human-aware.
 
 News
 ======
