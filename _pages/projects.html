@@ -23,10 +23,9 @@ author_profile: true
         <em>Contributors: {{ post.contributors | join: ", " }}</em><br/>
       {% endif %}
     </p>
-
-    <div class="archive__item-excerpt" style="margin-bottom: 1em;">
+    <p>
       {{ post.excerpt | markdownify }}
-    </div>
+    </p>
 
     {% if post.papers %}
       <div class="archive__item-excerpt" style="font-size: 0.9em; padding-left: 1.5em;">
