@@ -17,6 +17,8 @@ By modeling work and how it interacts with the work environment, I help provide 
 
 News
 ======
+- **July 2025**: Currently developing a conceptual paper on the role of modeling and simulation in cognitive systems engineering, with a focus on uncovering emergent properties in safety-critical systems and advancing human-AI teaming for next-generation work architectures; open to new research collaborations.
+
 - **June 2025**: Completed a two-year NASA SBIR effort with Mosaic ATM. This work involved modeling multiple contingency scenarios using *Work Models that Compute* to analyze system and agent performance metrics while varying system architectures, pilot communication delays, aircraft separation buffers, and more.
 
 - **May 2025**: Presented a paper titled *“Two Tools for Analyzing Coordination Problems to Design for Distributed Work: A Case Study in Urban Air Mobility”* with Abby Post at the International Symposium on Aviation Psychology. [https://doi.org/10.5399/osu/1188](https://doi.org/10.5399/osu/1188)
